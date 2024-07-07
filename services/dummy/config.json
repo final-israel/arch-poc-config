@@ -1,0 +1,49 @@
+# YAML Configuration: Alice and Bob's Road Trip
+project_name: "Alice and Bob's Road Trip"
+version: "1.0"
+
+# Road Trip Settings
+road_trip_settings:
+  enable_gps: true
+  travel_speed: "moderate"
+  rest_stops: 5  # Number of rest stops
+
+# Travelers
+travelers:
+  - name: "Alice"
+    role: "navigator"
+    skills: ["map reading", "first aid"]
+    inventory:
+      - "maps"
+      - "first aid kit"
+      - "snacks"
+
+  - name: "Bob"
+    role: "driver"
+    skills: ["driving", "car maintenance"]
+    inventory:
+      - "toolkit"
+      - "extra fuel"
+      - "emergency kit"
+
+# Destinations
+destinations:
+  - name: "Grand Canyon"
+    distance: "300 miles"
+    activities: ["hiking", "photography"]
+  
+  - name: "Yellowstone National Park"
+    distance: "500 miles"
+    activities: ["camping", "wildlife watching"]
+
+  - name: "Mount Rushmore"
+    distance: "200 miles"
+    activities: ["sightseeing", "history tour"]
+
+# Safety Protocols
+safety_protocols:
+  seatbelts: true
+  emergency_contacts: ["Alice's Phone", "Bob's Phone"]
+  travel_insurance: true
+
+# Enjoy a safe and exciting road trip with Alice and Bob!
