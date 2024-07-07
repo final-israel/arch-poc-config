@@ -1,12 +1,12 @@
 # YAML Configuration: Alice and Bob's Road Trip
 project_name: "Alice and Bob's Road Trip"
-version: "1.2"
+version: "1.2.1"
 
 # Road Trip Settings
 road_trip_settings:
   enable_gps: true
   travel_speed: "moderate"
-  rest_stops: 5  # Number of rest stops
+  rest_stops: 4  # Number of rest stops
 
 # Travelers
 travelers:
